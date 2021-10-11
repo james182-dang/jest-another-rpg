@@ -4,7 +4,7 @@
   "description": "Command line rpg, tested using Jest framework",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --transformIgnorePatterns \"node_modules/(?!jest-another-RPG)/\" --env=jsdom"
   },
   "repository": {
     "type": "git",
